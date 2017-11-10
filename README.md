@@ -4,9 +4,9 @@ Very Basic GraphQL implementation using NodeJs and Express.
 
 # Installation
 
-Clone the project cd into the project directory.
+Clone the project and cd into the project root directory.
 
 ## install dependencies
-    -- npm install
+    npm install
 
 Run it using npm start
