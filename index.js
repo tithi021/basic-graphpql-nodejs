@@ -1,7 +1,6 @@
 // This represents a root file.
 // Import Packges
 import express from 'express';
-import mongoose from 'mongoose';
 import { buildSchema } from 'graphql';
 import graphqlHttp from 'express-graphql';
 
