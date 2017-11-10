@@ -1,0 +1,26 @@
+{
+  "name": "graphql-api",
+  "version": "1.0.0",
+  "description": "GraphQL + NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node --presets es2015,stage-2"
+  },
+  "keywords": [
+    "nodejs",
+    "graphql"
+  ],
+  "author": "Afroza Yasmin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.12.1"
+  }
+}
